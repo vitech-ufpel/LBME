@@ -1,0 +1,10 @@
+BestDistance <= 4: no (494854)
+BestDistance > 4:
+:...CBDistRaster > 66: yes (310935/1956)
+    CBDistRaster <= 66:
+    :...CBDistRaster > 8: yes (182123/2563)
+        CBDistRaster <= 8:
+        :...CBDistRaster <= 7: yes (9647/160)
+            CBDistRaster > 7:
+            :...CBDistPred <= 0: no (447/29)
+                CBDistPred > 0: yes (1994/49)

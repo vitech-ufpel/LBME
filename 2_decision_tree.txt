@@ -1,0 +1,18 @@
+FirstLevel <= 3: no (485084)
+FirstLevel > 3:
+:...FirstLevel <= 5: yes (474977/3577)
+    FirstLevel > 5:
+    :...FirstLevel > 6: no (14827/7937)
+        FirstLevel <= 6:
+        :...QP > 27:
+            :...QP > 32: yes (4516/385)
+            :   QP <= 32:
+            :   :...SADFirst <= 688: yes (2830/294)
+            :       SADFirst > 688: no (2361/1939)
+            QP <= 27:
+            :...SADFirst <= 191: yes (3304/492)
+                SADFirst > 191:
+                :...QP <= 22: no (6188/4458)
+                    QP > 22:
+                    :...RDCostFirst <= 152: yes (3365/515)
+                        RDCostFirst > 152: no (2548/1937)
